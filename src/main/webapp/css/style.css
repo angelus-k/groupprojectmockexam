@@ -1,0 +1,1509 @@
+* {
+	box-sizing: border-box;
+}
+
+.marginPadding0{
+	
+	margin:0px;
+	padding:0px;
+	
+}
+
+
+div.title {
+	padding-top: 0.2em;
+	float: left;
+}
+
+div.row.header-row {
+	overflow: auto;
+	display: block;
+}
+
+h1.userhome {
+	float: left;
+}
+
+/* Registration page */
+.background.no-scroll.always {
+		overflow: hidden;
+	}
+
+
+.fixed_header tbody {
+	display: block;
+	max-height: 400px;
+	overflow: auto;
+	/*
+	width: 100%;
+	overflow-x: scroll;
+	*/
+}
+
+.fixed_header thead tr {
+	display: block;
+}
+
+.fixed_header th {
+	text-align: center;
+	padding: 0px;
+	
+}
+
+.output {
+	width: -webkit-fill-available;
+	height: unset;
+}
+
+.output:hover {
+	background-color: black;
+}
+
+#tableList {
+	background-color: #FFF;
+	border-collapse: collapse;
+	
+}
+
+button.logout-btn {
+	float: right;
+	margin-top: 30px;
+}
+
+#goback {
+	margin-left: 0;
+	margin-top: 1em;
+	width: 7em;
+	float: right;
+	background-color: #000;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+#goback:hover {
+	color: #000;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.button1 {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.button2:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.page-container {
+	margin: 0;
+	max-width: 1020px;
+}
+
+.row {
+	clear: both;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+
+.col {
+	float: left;
+	margin: 0 3% 0 0;
+}
+
+.last-col {
+	margin: 0;
+}
+
+.col1 {
+	width: 5.5%;
+}
+
+.col2 {
+	width: 14%;
+}
+
+.col3 {
+	width: 22.5%;
+}
+
+.col4 {
+	width: 31%;
+}
+
+.col5 {
+	width: 39.5%;
+}
+
+.col6 {
+	width: 48%;
+}
+
+.col7 {
+	width: 56.5%;
+}
+
+.col8 {
+	width: 65%;
+}
+
+.col9 {
+	width: 73.5%;
+}
+
+.col10 {
+	width: 82%;
+}
+
+.col11 {
+	width: 90.5%;
+}
+
+.col12 {
+	width: 99%;
+}
+
+.specialcolumn {
+	float: left;
+	width: 30%;
+}
+
+.background {
+	background-color: #00A4F6;
+	background-image: -webkit-linear-gradient(144deg, #00A4F6 37%, white 37%);
+	/*background-image: -webkit-linear-gradient(63.75deg, #DCDCDC 50%, white 50%);*/
+	height: 889px;
+	
+}
+
+.backgroundForSmallerDispaly {
+	background-color: #DCDCDC;
+	background-image: -webkit-linear-gradient(54deg, #DCDCDC 50%, white 50%);
+	height: 800px;
+	
+}
+
+.columnforreviewpage {
+	float: center;
+	height: fit-content;
+	width: 65%;
+	border: solid 2px black;
+	margin-top: 10px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+	-moz-column-count: 4; /* Firefox */
+	column-count: 4;
+}
+
+.columnforresultsreviewpage {
+	float: center;
+	height: fit-content;
+	width: 65%;
+	border: solid 2px black;
+	margin-top: 10px;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	-webkit-column-count: 4; /* Chrome, Safari, Opera */
+	-moz-column-count: 4; /* Firefox */
+	column-count: 4;
+}
+
+.whitebox {
+	border: solid 5px white;
+}
+
+/******************************
+	LOGO
+*******************************/
+
+img.fdm-logo {
+	width: 10em;
+	float: left;
+}
+/*
+.FDMbox {
+	width: 14%;
+	text-align: center;
+}*/
+
+.FDMboxonResultsReviewPage {
+	float: right;
+	width: 14%;
+	text-align: center;
+}
+
+.box {
+	border: solid 2px black;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.boxonresultsreviewpage {
+	border: solid 2px black;
+	text-align: center;
+	width: 22.5%;
+}
+
+.textbox {
+	border: solid 2px black;
+	text-align: left;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.textboxforquestionspage {
+	
+	margin: auto;
+    margin-top: 3em;
+    max-width: 800px;
+    height: auto; 
+	
+	border: solid 2px black;
+	text-align: left;
+	background: #fff;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 19px;
+}
+
+.textboxforreviewpage {
+	border: solid 10px black;
+	text-align: left;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.textboxbutton {
+	height: 50px;
+	width: 14%;
+	color: black;
+	border: solid 2px black;
+	text-align: left;
+	margin-left: 8.5%;
+	margin-top: 60px;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.textboxforresultspage {
+	height: 200px;
+	border: solid 2px black;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+
+.textboxforlastpage {
+	float: center;
+	border: solid 2px black;
+	text-align: center;
+	/*margin-left: 250px;*/
+	margin-top: 100px;
+	height: 100px;
+	width: 1150px;
+	padding-top: 20px;
+}
+
+.textboxbutton:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.collapsedtimebox {
+	height: 70px;
+	min-width: fit-content;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+	width: 22.5%;
+	color: black;
+	border: solid 2px black;
+	margin-left: 75%;
+	margin-top: 30px;
+	text-align: center;
+	padding-bottom: 50px;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 19px;
+}
+
+.collapsedtimeboxforreviewpage {
+	height: 70px;
+	width: 22.5%;
+	color: black;
+	border: solid 2px black;
+	margin-left: 75%;
+	margin-top: 60px;
+	text-align: center;
+	padding-bottom: 50px;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 19px;
+}
+
+.collapsedtimeboxforresultsreviewpage {
+	height: 70px;
+	width: 22.5%;
+	color: black;
+	border: solid 2px black;
+	margin-left: 75%;
+	margin-top: 60px;
+	text-align: center;
+	padding-bottom: 50px;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 19px;
+}
+
+/****************************
+		FORMS
+****************************/
+
+.form-container {
+	
+}
+
+
+form.answeroptions {
+    margin: auto;
+    text-align: start;
+    max-width: 800px;
+}
+
+
+/****************************
+		BUTTONS
+****************************/
+
+/* General appearance */
+button, input.button, a.button {
+	height: 50px;
+	margin-top: 50px;
+	/*margin-left: 8.5%;*/
+	width: 10em;
+	border-radius: 3px;
+	background-color: #00A4F6;
+	border: none;
+	color: white;
+	padding: 5px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+
+.button:hover {
+	background-color: black;
+}
+
+a.button {
+	line-height: 40px;
+	border: 1px solid #fff;
+}
+
+a.button.btn-delete {
+	line-height: 20px;
+	background: #FF003C;
+	height: 30px;
+}
+
+button.btn-delete {
+	line-height: 20px;
+	background: #FF003C;
+	height: 30px;
+}
+
+button.btn-delete:hover {
+	background-color: black;
+}
+
+.left {
+	float: left;
+	text-align: left;
+	max-width: 80%;
+	background: #fff;
+}
+
+.question-container {
+	background: #fff;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scoll;
+    border-radius: 3px;
+    padding: 0.5em;
+    border-radius: 3px;
+    max-height: 50vh;
+}
+
+.row-question {
+	
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.right {
+	float: right;
+}
+
+.startbutton {
+	height: 50px;
+	width: 14%;
+	border: solid 2px black;
+	margin-top: 60px;
+	margin-left: 34%;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.startbuttononchooseexampage {
+	height: 50px;
+	border: solid 2px black;
+	color: #000;
+	margin-top: 1em;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.previousbutton {
+	height: 50px;
+	width: 14%;
+	border: solid 2px black;
+	text-align: left;
+	margin-top: 177.5px;
+	margin-left: 8.5%;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+	color: black;
+    border: solid 2px black;
+    
+}
+
+.previousbuttononreviewpage {
+	height: 50px;
+	width: 14%;
+	min-width: 6em;
+	color: #000;
+	border: solid 2px black;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 75%;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.nextboxbutton {
+	height: 50px;
+	width: 14%;
+	border: solid 2px black;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 8.5%;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.nextboxbuttononfirstquestionpage {
+	height: 50px;
+	width: 48%;
+	border: solid 2px black;
+	text-align: left;
+	/*margin-top: 8em;*/
+	color: #000;
+	/*margin-left: 8.5%;*/
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.nextboxbuttononquestionspage {
+	height: 50px;
+	width: 45%;
+	border: solid 2px black;
+	text-align: left;
+	
+	color: #000;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.nextboxbuttononreviewpage {
+	height: 50px;
+	width: 45%;
+	border: solid 2px black;
+	text-align: left;
+	margin-top: 50px;
+	color: #000;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.reviewboxbutton {
+	height: 50px;
+	width: 14%;
+	border: solid 2px black;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 8.5%;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.reviewboxbuttononreviewpage {
+	height: 50px;
+	width: 45%;
+	border: solid 2px black;
+	text-align: left;
+	/*margin-top: 2em;*/
+	color: #000;
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.reviewboxbuttononfirstquestionpage {
+	float: right;
+}
+
+
+.finishboxbuttononresultspage {
+	height: 50px;
+	width: 45%;
+	color: #000;
+	border: solid 2px black;
+	margin-top: 30px;
+	
+	text-align: center;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.questionbox {
+	color: #000;
+	height: 30px;
+	width: 73.5%;
+	min-width: 6em;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	border: solid 2px black;
+	background-color: white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.questionboxgreen {
+	height: 30px;
+	width: 73.5%;
+	min-width: 6em;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	border: solid 2px black;
+	background-color: #66ff99;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+.questionboxgreen.checkedone:after {
+	content: '';
+	display: block;
+	width: 4px;
+	height: 7px;
+	position: relative;
+	bottom: 15px;
+	left: 7px;
+	border: solid #000;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+
+.questionboxred {
+	height: 30px;
+	width: 73.5%;
+	min-width: 6em;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	border: solid 2px black;
+	background-color: #ff5050;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+}
+
+/*.questionboxred.checkedtwo:after {
+	
+	content: '\274c';
+	display: block;
+	width: 4px;
+	height: 7px;
+	position:relative;
+    top:4px;
+    left:7px;
+  
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+	
+}*/
+.questionboxgreen:hover {
+	color: white;
+	cursor: pointer;
+	background-color: #006400;
+}
+
+.questionboxred:hover {
+	color: white;
+	cursor: pointer;
+	background-color: #8B0000;
+}
+
+.startbutton:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.startbuttononchooseexampage:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.previousbutton:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.previousbuttononreviewpage:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.nextboxbuttononreviewpage:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.nextboxbuttononquestionspage:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.reviewboxbuttononreviewpage:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.nextboxbuttononfirstquestionpage:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.nextboxbutton:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.reviewboxbutton:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.questionbox:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+.finishboxbuttononresultspage:hover {
+	color: white;
+	cursor: pointer;
+	background-color: black;
+}
+
+/*.button{
+	text-decoration: none;
+	background: #ffffff;
+	color: #000000;
+	border-radius: 5px;
+}*/
+
+/*
+.button {
+	height: 50px;
+	
+	margin-top: 50px;
+	margin-left: 8.5%;
+	text-align: center;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}*/
+.a:hover {
+	background-color: black;
+}
+
+p.button {
+	font-family: "Times New Roman", Times, serif;
+}
+
+/************************
+     Header
+************************/
+header {
+	height: 80px;
+	background: white;
+	padding: 0 0 30px 0;
+}
+
+header nav {
+	float: right;
+}
+
+/**************************
+        Drop Down Menu
+**************************/
+.dropbtn {
+	width: 10em;
+	background-color: #000;
+	color: #fff;
+	padding: 16px;
+	font-size: 16px;
+	border: solid 5px black;
+	margin-top: 5px;
+	margin-left: 43px;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	margin-left: 43px;
+	position: static;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/*.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}*/
+
+/**************************
+     Select from a list
+**************************/
+.custom-select {
+	position: relative;
+	font-family: Arial;
+	margin: auto;
+	margin-top: 10px;
+	border: solid 2px black;
+}
+
+.custom-select select {
+	display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+	background-color: white;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+	position: absolute;
+	top: 14px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 6px solid black;
+	border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+	color: #000000;
+	text-align: center;
+	border-color: transparent transparent #fff transparent;
+	top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div, .select-selected {
+	color: black;
+	text-align: center;
+	padding: 8px 16px;
+	border: 1px solid transparent;
+	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+	cursor: pointer;
+	user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+	position: absolute;
+	background-color: white;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+	display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/**************************************************
+              Custom Radio Button 
+**************************************************/
+.containerforradiobutton {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-top: 25px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 16px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 19px;
+}
+
+/* Hide the browser's default radio button */
+.containerforradiobutton input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 16px;
+	width: 16px;
+	background-color: #eee;
+	border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerforradiobutton:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+/* When the radio button is checked, add a black background */
+.containerforradiobutton input:checked ~ .checkmark {
+	background-color: black;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerforradiobutton input:checked ~ .checkmark:after {
+	display: block;
+}
+
+
+/*******************************
+		CHOOSE EXAM		
+*******************************/
+
+.exam-instructions {
+	margin: auto;
+	max-width: 600px;
+	background: #fff;
+}
+
+.select-exam {
+	margin: auto
+}
+
+/*******************************
+		QUESTIONS PAGES
+*******************************/
+
+.question-instructions {
+	margin: auto;
+	max-width: 800px;
+	background: #fff;
+	border-radius: 3px;
+}
+
+.questionpage-button-container {
+	margin: auto;
+	max-width: 900px;
+	overflow: hidden;
+}
+
+.btn-question {
+	/*float: left;*/
+	height: 40px;
+	width: 20%;
+	font-size: 15px;
+	border: solid 2px black;
+	cursor: pointer;
+    /*
+    text-align: center;
+    background-color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    */
+}
+
+/* popup to report questions */
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 360px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  /*
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  */
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  transform: rotate(-90deg);
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/*******************************
+		MANAGE USERS
+*******************************/
+
+.userlist-section {
+	width: 100%;
+    /*
+    overflow: hidden;*/
+}
+
+.userlist-control {
+	float: left;
+	min-width: 29%;
+    margin-left: 1em;
+}
+
+.userlist-table {
+	float: left;
+	margin-top: 1em;
+	margin-left: 1em;
+	/*
+	overflow-x: scroll; */
+}
+
+/*******************************
+		MANAGE EXAMS
+*******************************/
+
+.manage-exam-content {
+	margin: auto;
+	max-width: 800px;
+	
+}
+
+.button.add-exam {
+	height: 30px;
+	border: 1px solid #fff;
+}
+
+.exam-table {
+	margin-top: 2em;
+}
+
+.exam-table-th {
+	min-width: 3em;
+}
+
+.dropbtn.exam {
+	height: 20px;
+    padding-top: 0;
+}
+
+/*******************************
+		MEDIA QUERIES
+*******************************/
+
+/* Extra small devices (phones, 600px and down) */
+/*@media only screen and (max-width: 600px) {
+  .background {
+  background-color: red;
+  background-image: -webkit-linear-gradient(63.75deg, red 50%, white 50%);
+  }
+}*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {
+  .background {
+  background-color: green;
+  background-image: -webkit-linear-gradient(63.75deg, green 50%, white 50%);
+  }
+}*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+/*@media only screen and (min-width: 768px) and (max-height: 1745px){
+  .background {
+  background-color: #DCDCDC;
+  background-image: -webkit-linear-gradient(29deg, #DCDCDC 50%, white 50%);
+  height: 100vh;
+  }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1400px) {
+	.background {
+		background-color: #00A4F6;
+		background-image: -webkit-linear-gradient(148deg, #00A4F6 35%, white 35%);
+		height: 100vh;
+		/*
+		height: 97.5vh;*/
+	}
+	.textboxforquestionspage {
+		border: solid 2px black;
+		text-align: left;
+		
+
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 17px;
+	}
+	.containerforradiobutton {
+		display: block;
+		position: relative;
+		padding-left: 35px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		font-size: 16px;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 17px;
+	}
+	.nextboxbuttononquestionspage {
+		height: 40px;
+		width: 45%;
+		color: #000;
+		border: solid 2px black;
+		text-align: left;
+		margin-top: 50px;
+		
+		text-align: center;
+		background-color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 15px;
+	}
+	.reviewboxbuttononreviewpage {
+		height: 40px;
+		width: 45%;
+		border: solid 2px black;
+		text-align: left;
+		text-align: center;
+		background-color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 15px;
+	}
+	.previousbuttononreviewpage {
+		color: #000;
+		height: 40px;
+		width: 20%;
+		min-width: 6em;
+		border: solid 2px black;
+		text-align: left;
+		margin-top: 50px;
+		margin-left: 70%;
+		text-align: center;
+		background-color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 15px;
+	}
+	.collapsedtimebox {
+		height: 50px;
+		width: 20%;
+		color: black;
+		border: solid 2px black;
+		margin-left: 75%;
+		margin-top: 2em;
+		text-align: center;
+		padding-bottom: 50px;
+		background-color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 15px;
+	}
+	.collapsedtimeboxforreviewpage {
+		height: 50px;
+		width: 22.5%;
+		color: black;
+		margin-top: 50px;
+		border: solid 2px black;
+		margin-left: 75%;
+		text-align: center;
+		padding-bottom: 50px;
+		background-color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 15px;
+	}
+	.collapsedtimeboxforresultsreviewpage {
+		height: 50px;
+		width: 22.5%;
+		color: black;
+		border: solid 2px black;
+		/*margin-top: -10px;*/
+		margin-left: 75%;
+		text-align: center;
+		padding-bottom: 50px;
+		background-color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 15px;
+	}
+	.finishboxbuttononresultspage {
+		height: 40px;
+		width: 45%;
+		border: solid 2px black;
+		margin-top: 30px;
+		
+		text-align: center;
+		background-color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 15px;
+	}
+	.nextboxbuttononfirstquestionpage {
+		height: 40px;
+		width: 45%;
+		
+		border: solid 2px black;
+		text-align: center;
+		background-color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 15px;
+	}
+	.custom-select {
+		position: relative;
+		font-family: Arial;
+		margin-top: 10px;
+		border: solid 2px black;
+	}
+	.nextboxbuttononreviewpage {
+		height: 40px;
+		width: 45%;
+		color: #000;
+		border: solid 2px black;
+		text-align: left;
+		margin-top: 50px;
+		
+		text-align: center;
+		background-color: white;
+		font-family: "Times New Roman", Times, serif;
+		font-size: 15px;
+	}
+	.textboxforlastpage {
+		max-width: 700px;
+    	margin: 30% auto;
+		background: #fff;
+		float: center;
+		border: solid 2px black;
+		text-align: center;
+		/*margin-left: 250px;*/
+		margin-top: 100px;
+		height: 100px;
+		width: 970px;
+		padding-top: 20px;
+	}
+	.columnforreviewpage {
+		float: center;
+		height: fit-content;
+		width: 60%;
+		border: solid 2px black;
+		
+		text-align: left;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		-webkit-column-count: 4; /* Chrome, Safari, Opera */
+		-moz-column-count: 4; /* Firefox */
+		column-count: 4;
+	}
+	.columnforresultsreviewpage {
+		float: center;
+		height: fit-content;
+		width: 65%;
+		border: solid 2px black;
+		margin-top: 10px;
+		text-align: left;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		-webkit-column-count: 4; /* Chrome, Safari, Opera */
+		-moz-column-count: 4; /* Firefox */
+		column-count: 4;
+	}
+	
+	
+	.boxonresultsreviewpage {
+		border: solid 2px black;
+		text-align: center;
+		width: 22.5%;
+		height: 50px;
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 800px) {
+	.background.no-scroll {
+		overflow: hidden;
+	}
+}
+
+@media (min-width: 1000px) {
+	
+	.question-instructions {
+		margin-top: 2em;
+	}	
+	.questionpage-button-container {
+		margin-top: 2em;
+	}
+	
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1350px) and
+	(min-height: 700px) {
+	.background {
+		background-color: #00A4F6;
+		background-image: -webkit-linear-gradient(150deg, #00A4F6 40%, white 40%);
+		height: 100hv;
+		/*height: 98.25vh;*/
+	}
+	.textboxforlastpage {
+		float: center;
+		border: solid 2px black;
+		text-align: center;
+		/*margin-left: 250px;*/
+		margin-top: 100px;
+		height: 100px;
+		width: 900px;
+		padding-top: 20px;
+	}
+	.custom-select {
+		position: relative;
+		font-family: Arial;
+		margin-left: 85px;
+		margin-top: 10px;
+		border: solid 2px black;
+	}
+}
+
+@Media ( max-width : 1000px) {
+	
+	div.title {
+		float: left;
+		margin-right: 4em;
+	}
+	
+}
+
+@Media ( max-width : 780px) {
+	div.title {
+		float: left;
+		margin-right: 0;
+	}
+	.columnforresultsreviewpage {
+		width: 100%;
+	}
+	.specialcolumn.resultsreviewpage {
+		width: 100%;
+	}
+	button.specialcolumn.resultsreviewpage {
+		width: 50%;
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+	.previousbuttononreviewpage {
+		margin-left: 0;
+		width: 6em;
+	}
+	.finishboxbuttononresultspage {
+		margin-left: 0;
+		width: 6em;
+	}
+}
+
+@Media ( max-width : 500px) {
+	div.title {
+		float: left;
+		margin-right: 0;
+	}
+}
+
+/*@media only screen and (min-width: 1355px) and (min-height: 700px) {
+  .background {
+  background-color: #DCDCDC;
+  background-image: -webkit-linear-gradient(78deg, #DCDCDC 50%, white 50%);
+  height: 98vh;
+  }
+}*/
+
+/*@media only screen and (min-width: 1355px) and (min-height: 700px) {
+  .background {
+  background-color: #DCDCDC;
+  background-image: -webkit-linear-gradient(63.75deg, #DCDCDC 50%, white 50%);
+  height: 98vh;
+  }
+}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*@media only screen and (min-width: 1200px) and (min-height: 800px)  {
+  .background {
+  background-color: #707070;
+  background-image: -webkit-linear-gradient(57.5deg, #707070 50%, white 50%);
+  }
+}*/
